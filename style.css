@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Poppins:wght@600&family=Roboto+Mono:wght@300;500&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&family=Ubuntu:wght@300;500&display=swap');
+/*variable*/
+
+body{
+    background-color:#F1F5F6;
+    overflow-x:hidden;
+}
+/* global style*/
+a{
+    text-decoration:none;
+    font-size:1.5rem;
+ 
+}
+.navbar-text{
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-color:black;
+    border-width:1px;
+    padding:5px;
+    line-height:1.2rem;
+}
+.navbar-brand .img{
+    width:60px;
+    height:60x;
+}
+.short-desc{
+    width:150px; 
+}
+.container{margin: 0 auto;}
+.mynav a{
+    margin-right:15px;
+    font-size: 1.5rem;
+    font-family:'roboto mono';
+}
+.mynav a:hover{
+    border-bottom: 2px solid black;
+    color:crimson !important;
+}
+/*her */
+.hero-box{
+    margin:0 auto;
+}
+.hero-heading{
+    font-size:5rem;
+    font-weight:600;
+    display: inline-block;
+}
+.hero-heading-box{
+    max-width:650px;
+    padding: 150px 0 30px 0;
+}
+.svg-icon-class{
+    display:block;
+ align-items: center;
+    align-self: end;
+    width: 100px;
+    background-color: #FA7F3E;
+    border-radius:50%;
+    padding:12px;
+  
+}
+.buttons{
+    padding:  20px 0 ;
+}
+.svg-icon svg{
+    color:black;
+}
+   /*hero-main*/ 
+   .heros{
+       margin: 0 auto;
+   }
+   #hero-main{
+background:url(images/bg.jpg);
+background-size:cover;
+background-attachment: fixed;
+width:100%;
+height:100%;
+background-repeat:no-repeat;
+min-height:600px;
+position:relative;
+
+   }
+   
+.dark-overlay{background-color:rgba(0,0,0,0.7);
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%
+}
+.hero-main-heading{
+    padding:100px 0 0;
+    color:white;
+    max-width:900px;
+}
+
+.buttons{
+    display:flex;
+    
+}
+
+.buttons a{
+    background-color:#91C340;
+    padding:10px 10px;
+    color:black;
+    border-radius: 12px;
+}
+.buttons svg{
+    width:30px;height:30px;
+    background:white;
+    border-radius:50%;
+    padding: 5px;
+}
+.line{
+    width:100%;height:1px;background:white;
+    margin:50px 0;
+}
+.line.our-program-line{
+    background-color:black;
+}
+
+.country-line{
+    background-color:grey;
+   
+}
+.point{
+    width:10px;height:10px;
+    background-color:orange;
+    border:1px solid orange;
+    border-radius: 50%;
+   margin:10px;
+}
+.number-class{padding:30px 10px;
+color:white;
+font-size:4rem;}
+.point-wrapper{display:flex;}
+.point-p{
+    color:white;
+}
+
+/*our program*/
+.programs{
+    margin: 0 auto;
+}
+
+#program{
+    padding-bottom:40px;
+}
+.our-program-p{
+    max-width:500px;
+    font-size:1.5rem;
+}
+.our-program-h2{
+    font-weight: 600px;
+}
+
+/*country*/
+.countries{
+    margin: 0 auto;
+}
+.button-country svg{
+width:60px;height:60px;
+
+}
+.button-country{
+    display:flex;  
+}
+.button-country a{
+    color:black;  
+}
+.new-york-h1 a{
+ font-size:5rem;
+ color:black;
+}
+.svg-icon-class-country{
+     
+        display: block;
+        align-items: center;
+        align-self: end;
+        width: 100px;
+        background-color: #FA7F3E;
+        border-radius: 50%;
+        padding: 15px;
+
+}
+/*global partner*/
+#global-partner{
+    padding:100px 0;
+}
+ .brand{
+     padding: 70px 0;
+ }
+ .brand-img .img{
+width:100%;
+height:50px;
+ }
+ .brand-img img{
+   object-fit:contain;
+     }
+.global-heading{
+    color: #000000;
+    font-weight: 500px;
+    margin:0 auto;
+    text-align:center;
+}
+
+/*feature alumni*/
+.feature{
+    background-color: #ceeaf1d3;
+    border-radius:12px;
+}
+.line-feature{width:100%;height:1px;
+    background-color:black;}
+    .featured{
+        padding: 40px 0 ;
+    }
+.feature-h2{padding: 20px 0 10px;}
+/*card */ 
+.featue{
+    background-color: aqua;
+} 
+.card{
+    background-color:#75D4E3;
+    padding:30px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px 3px #888888;
+}
+.card-img{
+    margin-top: 3rem;
+    text-align:right;
+}
+.card-img img{
+width:50%;
+}
+.line-card{background-color:grey;
+width:100%;height:1px;
+margin:20px 0;
+}
+.card-desc a:hover{
+text-decoration:underline;
+}
+.line-feature{
+    background-color:grey;
+width:100%;height:1px;
+margin:40px 0;
+}
+.line-featured{padding: 30px 0 0;}
+.feature-alumni{
+    padding-bottom:20px;
+}
+.alumni-btn{
+    justify-content:end;
+    display:flex;    
+}
+.buttons .outline{
+    background-color:#60A9F8;
+}
+/*testimonial */
+#testimonial{
+    padding: 50px;
+}
+.testimonial-img{
+    width:100%;
+    padding:20px 0;
+}
+.testimonial-img .img{
+    width:50%;
+    object-fit:contain;  
+}
+.testimonial-desc{padding-top:30px}
+/*testimonial */
+#footer{
+    background-color:#000000;
+}
+.list{
+    padding: 30px 0;
+    text-align: center;
+}
+.list a{
+    display:block;
+    color:white;
+}
+.footer-img  {
+   background-color:white;
+   display:inline-block;
+   padding:1px 10px;
+   border-radius:50%;
+  margin-top:20px;
+  margin-right:12px;
+
+}
+.footer-img .img {
+    width:15px;
+    height:15px;
+    object-fit:contain;
+}
+.new-york{
+    color:white;
+}
+.footer-link {
+    font-size:1em;
+}
+
+#copyright{
+    background-color:#000000;
+}
+#copyright p{
+    color:grey;
+    text-align: center;
+}
+.line-copy{
+    background-color:white;
+    width:100%;height:1px;
+}
+@media only screen and (max-width:768px){
+    .col-sm-4{
+        margin:0 auto;
+    }
+    .hero-heading{font-size:2rem;}
+    #hero-main{
+        height:900px;
+    }
+    .number-class{
+        padding:0px;
+    }
+    .our-program-h2{
+        font-size:3rem;
+    }
+   .new-york-h1 a{font-size:4rem;}
+   .new-york-h1{text-align:center;}
+   .global-heading{font-size:2rem;font-weight: 500;}
+   .brand-img{
+       margin-bottom:20px;
+   }
+   .brand{
+       padding :70px 0 0;
+   }
+   .feature-alumni{font-size:2rem;}
+   .feature-alumni-card{
+       margin-bottom:20px;
+   }
+   .margin{margin:0 auto;}
+   .hero-heading-box{padding: 80px 0 30px 0;}
+   #global-partner {
+    padding: 50px 0;
+}
+}
+
+@media only screen and (max-width:350px){
+    .navbar-brand{
+        margin-right:0px;
+    }
+    .short-desc{width:100px;}
+    .hero-heading-box {
+        padding: 100px 0 30px 0;
+    }
+}
+
